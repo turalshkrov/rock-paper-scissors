@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #D9D9D9;
+    background-color: #222831;
+}
+
+a{
+    color: #D9D9D9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    padding: 2rem;
+    background-color: #111720;
+    text-align: center;
+}
+.head-title {
+    font-size: 2.5rem;
+}
+
+.game-title {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+}
+.game-container {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.score-box {
+    width: 140px;
+    height: 140px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign {
+    font-size: 5rem;
+    margin-bottom: .75rem;
+}
+.score {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.btn {
+    margin: .5rem;
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393e46;
+    cursor: pointer;
+}
+.btn:hover {
+    transition: .3s;
+    background-color: #4a4f57;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 492px) {
+    .head-title {
+        font-size: 1.75rem;
+    }
+    .game-title {
+        font-size: 1rem;
+    }
+    .score-box {
+        width: 120px;
+        height: 120px;
+        margin: .5rem;
+    }
+    .btn {
+        width: 90px;
+        height: 90px;
+    }
+    .sign {
+        font-size: 3.5rem;
+    }
+  }
