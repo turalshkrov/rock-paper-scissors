@@ -20,6 +20,10 @@ a:hover {
     text-decoration: underline;
 }
 
+button {
+    border: none;
+}
+
 header {
     padding: 2rem;
     background-color: #111720;
@@ -77,9 +81,23 @@ header {
     transition: .3s;
     background-color: #4a4f57;
 }
-
+.game-over {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+#play-again {
+    margin-top: .5rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ABB2B9;
+    cursor: pointer;
+}
 footer {
-    margin-top: 2rem;
+    margin: 1rem;
     text-align: center;
 }
 

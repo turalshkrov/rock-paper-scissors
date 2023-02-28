@@ -12,10 +12,10 @@
     </header>
     <main>
         <div class="game-title">
-            <h2 class="winner">
-                Winner: 
+            <h2 id="result">
+                Choose Your Weapon
             </h2>
-            <p class="rules">First to score 5 points wins the game</p>
+            <p id="rules">First to score 5 points wins the game</p>
         </div>
         <div class="game-container">
             <div class="score-box">
@@ -30,27 +30,35 @@
                 <div class="sign" id="computer-sign">
                     ❔
                 </div>
-                <p class="score" id="player-score">
+                <p class="score" id="computer-score">
                     Computer: 
                 </p>
             </div>
         </div>
         <div class="buttons">
-            <div class="btn" id="rock-btn">
+            <button class="btn" id="rock">
                 <div class="sign">
                     ✊
                 </div>
-            </div>
-            <div class="btn" id="paper-btn">
+            </button>
+            <button class="btn" id="paper">
                 <div class="sign">
                     ✋
                 </div>
-            </div>
-            <div class="btn" id="scissors-btn">
+            </button>
+            <button class="btn" id="scissors">
                 <div class="sign">
                     ✌
                 </div>
-            </div>
+            </button>
+        </div>
+        <div class="game-over">
+            <h2 id="winner">
+                Winner: 
+            </h2>
+            <button id="play-again" title="Play Again" disabled>
+                PLay again
+            </button>
         </div>
     </main>
     <footer>
